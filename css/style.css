@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=New+Rocker&family=UnifrakturMaguntia&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: "MedievalSharp", cursive;
 }
 
 body{
@@ -10,15 +13,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../assets/bg-beach.jpg);
+    background-size: cover;
 }
 
 main{
     width: 300px;
     min-height: 300px;
     position: relative;
-    border: 1px solid black;
+    border: 1px solid #3f4b4bb3;
     padding: 76px 16px 16px 16px;
     border-radius: 16px;
+    background-color:#3f4b4bb3;
+    backdrop-filter: blur(2px);
+    color: white    ;
 }
 
 .perfil{
@@ -30,7 +38,8 @@ main{
     translate: -50% -50%;
     overflow: hidden;
     border-radius:50%;
-    border:1px solid black;
+    border:2px solid #3f4b4b;
+    background-color: #3f4b4b;
 }
 
 .perfil .foto,
@@ -51,11 +60,11 @@ main{
 }
 
 .foto{
-    background-color:rgba(32, 82, 43, 0.911);
+    background-color: #3f4b4b;
 }
 
 .logo{
-    background-color: rgba(32, 82, 43, 0.911);
+    background-color: #3f4b4b;
     transform: rotateY(180deg);
 }
 
@@ -84,9 +93,9 @@ a{
     align-items: center;
     width: 100%;
     height: 32px;
-    border: 1px solid blue;
+    border: 1px solid rgb(12 42 53);
     border-radius: 8px;
-    background-color: rgba(32, 82, 43, 0.911);
+    background-color:rgb(12 42 53);
     transition: .5s;
     color: white;
     text-decoration: none;
@@ -94,5 +103,16 @@ a{
 
 a:hover{
     background-color: white;
-    color:rgba(32, 82, 43, 0.911);
+    color: rgb(12 42 53);
 }
+
+h1{
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 16px 0;
+}
+
